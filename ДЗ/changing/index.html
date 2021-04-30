@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HW_lesson_4</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Шаблон для изменения кавычек в тексте</h1>
+        <section class="wrapper">
+            <input id="button" type="checkbox">
+            <label class="label" for="button">click me</label>
+            <div class="modal">
+                <div class="main">
+                    <form action="#" id="form" class="form">
+                        <textarea id="text" class="message" name="text" cols="30" rows="30" placeholder="Скопируйте текст и нажмите изменить"></textarea>
+                        <div class="inputs">
+                            <input id="input_check" class="input_name input_name_check" name="check" type="submit" value="Изменить" />
+                            <input id="input_clear" class="input_name input_name_clear" name="reset" type="reset" value="Отчистить" />
+                        </div>
+                    </form>
+                </div>
+                <label for="button" class="close"></label>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
